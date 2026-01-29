@@ -8,3 +8,7 @@ elif 4==4:
     print("NEW")
 else:
     print("abc")
+
+#ternary
+x= 5 if a>b else 10
+print(x)
