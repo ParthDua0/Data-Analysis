@@ -9,3 +9,6 @@ FROM parks_and_recreation.employee_demographics;
 
 SELECT DISTINCT first_name,gender
 FROM parks_and_recreation.employee_demographics;
+
+SELECT count(*) FROM park_and_recreation.employee_demographics
+group by gender;
