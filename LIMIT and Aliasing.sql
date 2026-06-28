@@ -25,3 +25,8 @@ FROM parks_and_recreation.employee_demographics
 GROUP BY gender
 HAVING avg_age > 40
 ;
+
+--learning offset in sql
+SELECT * FROM parks_and_recreation.employee_demographics
+ORDER BY age desc
+LIMIT 3 OFFSET 2;
