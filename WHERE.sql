@@ -31,3 +31,6 @@ SELECT *
 FROM parks_and_recreation.employee_demographics
 WHERE birth_date LIKE '1989%'
 ;
+
+select * from parks_and_recreation.employee_demographics
+where birth_date between '1987' and '1989';
