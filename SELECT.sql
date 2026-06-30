@@ -1,3 +1,5 @@
+-- name of dataset parks_and_recreation
+-- name of table employee_demographics
 SELECT * 
 FROM parks_and_recreation.employee_demographics;
 
