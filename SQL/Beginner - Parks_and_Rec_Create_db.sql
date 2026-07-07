@@ -74,7 +74,7 @@ VALUES
 ('Library'),
 ('Finance');
 
-
+-- to be performed operations (Select, where, group by, order by)
 
 
 
