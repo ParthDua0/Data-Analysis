@@ -25,7 +25,7 @@ FROM parks_and_recreation.employee_demographics
 ORDER BY 5, 4 
 ;
 
--- groupby and orderby
+-- GROUP BY and ORDER BY
 
 select * from parks_and_recreation.employee_demographics
 group by occupation, salary
