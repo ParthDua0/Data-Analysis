@@ -29,4 +29,10 @@ HAVING avg_age > 40
 --learning offset in sql with  multiple examples
 SELECT * FROM parks_and_recreation.employee_demographics
 ORDER BY age desc
-LIMIT 3 OFFSET 2;
+LIMIT 3 OFFSET 2
+;
+
+SELECT * FROM parks_and_receation.employee_demographics
+ORDER BY age descc
+LIMIT 6 OFFSET 5
+:
