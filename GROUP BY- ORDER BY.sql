@@ -13,7 +13,7 @@ FROM parks_and_recreation.employee_salary
 GROUP BY occupation, salary
 ;
 
--- ORDER BY
+-- ORDER BY (corrected)
 
 SELECT *
 FROM parks_and_recreation.employee_demographics
