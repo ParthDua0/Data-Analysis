@@ -1,7 +1,7 @@
 -- GROUP BY (new updated file)
 
-SELECT *
-FROM parks_and_recreation.employee_demographics;
+select *
+from parks_and_recreation.employee_demographics;
 
 SELECT gender , AVG(age), MAX(age), MIN(age)
 FROM parks_and_recreation.employee_demographics
