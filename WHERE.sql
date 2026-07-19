@@ -1,29 +1,29 @@
-SELECT *
-FROM parks_and_recreation.employee_salary
-WHERE first_name = 'Leslie'
+select *
+from parks_and_recreation.employee_salary
+where first_name = 'Leslie'
 ;
 
-SELECT *
-FROM parks_and_recreation.employee_salary
-WHERE salary > 50000
-AND NOT dept_id = 1
+select *
+from parks_and_recreation.employee_salary
+where salary > 50000
+and not dept_id = 1
 ;
 
 select * from parks_and_recreation.employee_salary
 where salary between 5000 and 15000
 and dept_id = 1;
 
-SELECT *
-FROM parks_and_recreation.employee_demographics
-WHERE (first_name = 'Leslie' AND age = 44) OR age > 50
+select *
+from parks_and_recreation.employee_demographics
+where (first_name = 'Leslie' and age = 44) or age > 50
 ;
 
 -- LIKE
 -- %(anything) and _ (a specific value)
 
-SELECT *
-FROM parks_and_recreation.employee_salary
-WHERE first_name LIKE 'a%'
+select *
+from parks_and_recreation.employee_salary
+where first_name like 'a%'
 ;
 
 SELECT *
