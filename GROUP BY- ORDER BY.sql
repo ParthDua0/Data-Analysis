@@ -3,14 +3,14 @@
 select *
 from parks_and_recreation.employee_demographics;
 
-SELECT gender , AVG(age), MAX(age), MIN(age)
-FROM parks_and_recreation.employee_demographics
-GROUP BY gender
+select gender , AVG(age), MAX(age), MIN(age)
+from parks_and_recreation.employee_demographics
+group by gender
 ;
 
-SELECT occupation, salary
-FROM parks_and_recreation.employee_salary
-GROUP BY occupation, salary
+select occupation, salary
+from parks_and_recreation.employee_salary
+group by occupation, salary
 ;
 
 -- ORDER BY (corrected)
