@@ -1,12 +1,11 @@
 -- HAVING VS WHERE
 
-SELECT gender, AVG(age)
-FROM parks_and_recreation.employee_demographics
-GROUP BY gender
-HAVING AVG(age)>40
-;
+select gender, AVG(age)
+from parks_and_recreation.employee_demographics
+group by gender
+having AVG(age)>40;
 
-SELECT occupation, AVG(salary)
+select occupation, AVG(salary)
 FROM parks_and_recreation.employee_salary
 WHERE occupation LIKE '%manager%' -- before groupby
 GROUP BY occupation    -- group by
