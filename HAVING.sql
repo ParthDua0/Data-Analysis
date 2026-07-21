@@ -6,8 +6,7 @@ group by gender
 having AVG(age)>40;
 
 select occupation, AVG(salary)
-FROM parks_and_recreation.employee_salary
-WHERE occupation LIKE '%manager%' -- before groupby
-GROUP BY occupation    -- group by
-HAVING AVG(salary) > 70000   -- after group by
-;
+from parks_and_recreation.employee_salary
+where occupation like '%manager%' -- before groupby
+group by occupation    -- group by
+having AVG(salary) > 70000;   -- after group by
