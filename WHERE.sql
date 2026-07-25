@@ -18,11 +18,11 @@ where (first_name = 'Leslie' and age = 44) or age > 50;
 select * from parks_and_recreation.employee_salary
 where first_name like 'a%';
 
-SELECT * FROM parks_and_recreation.employee_demographics
-WHERE first_name LIKE 'a___%';
+select * from parks_and_recreation.employee_demographics
+where first_name like 'a___%';
 
-SELECT * FROM parks_and_recreation.employee_demographics
-WHERE birth_date LIKE '1989%';
+select * from parks_and_recreation.employee_demographics
+where birth_date like '1989%';
 
 select * from parks_and_recreation.employee_demographics
 where birth_date between '1987' and '1989';
