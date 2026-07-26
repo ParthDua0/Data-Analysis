@@ -10,6 +10,6 @@ print(c)  # True
 
 a = 7
 b = "abc"
-# c = a < b  # This will raise a TypeError
-c = a==b
+# c = a < b  This will raise a TypeError
+c = a == b
 print(c)  # False
