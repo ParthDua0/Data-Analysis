@@ -12,3 +12,8 @@ else:
 #ternary
 x= 5 if a>b else 10
 print(x)
+
+if a==b:
+    print("Both are equal")
+else:
+    print("NOT")
