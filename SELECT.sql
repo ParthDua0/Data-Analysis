@@ -1,13 +1,13 @@
 -- name of dataset parks_and_recreation
 -- name of table employee_demographics
 -- tip :- can use alias in place of writing the whole name everytime
-SELECT * 
-FROM parks_and_recreation.employee_demographics;
+select * 
+from parks_and_recreation.employee_demographics demo;
 
-SELECT first_name, last_name, birth_date, age, age+10, (age+10)*10
-FROM parks_and_recreation.employee_demographics;
+select first_name, last_name, birth_date, age, age+10, (age+10)*10
+from parks_and_recreation.employee_demographics demo;
 
-SELECT DISTINCT gender
+SELECT distinct gender
 FROM parks_and_recreation.employee_demographics;
 
 SELECT DISTINCT first_name,gender
