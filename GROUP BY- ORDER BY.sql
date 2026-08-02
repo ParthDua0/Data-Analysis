@@ -18,6 +18,7 @@ select * from parks_and_recreation.employee_demographics
 order by 5, 4;
 
 -- GROUP BY and ORDER BY
+-- can also write the name of actualy column in place of the numbers
 
 select * from parks_and_recreation.employee_demographics
 group by occupation, salary
