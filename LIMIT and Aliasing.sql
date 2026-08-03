@@ -1,8 +1,8 @@
 -- LIMIT
 
-SELECT * FROM parks_and_recreation.employee_demographics
-ORDER BY age DESC
-LIMIT 3,2;
+select * from parks_and_recreation.employee_demographics
+order by age desc
+limit 3,2;
 
 -- Aliasing
 
