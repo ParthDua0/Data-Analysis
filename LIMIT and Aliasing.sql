@@ -29,7 +29,6 @@ order by age
 having age > 18
 limit 50;
 
-SELECT * FROM parks_and_receation.employee_demographics
-ORDER BY age descc
-LIMIT 6 OFFSET 5
-:
+select * from parks_and_receation.employee_demographics
+order by age descc
+limit 6 OFFSET 5:
