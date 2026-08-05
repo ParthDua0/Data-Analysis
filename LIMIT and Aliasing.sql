@@ -6,22 +6,28 @@ limit 3,2;
 
 -- Aliasing
 
-SELECT gender, AVG(age) FROM parks_and_recreation.employee_demographics
-GROUP BY gender
-HAVING AVG(age) > 40;
+select gender, AVG(age) from parks_and_recreation.employee_demographics
+group by gender
+having AVG(age) > 40;
 
-SELECT gender, AVG(age) AS avg_age FROM parks_and_recreation.employee_demographics
-GROUP BY gender
-HAVING avg_age > 40;
+select gender, AVG(age) as avg_age from parks_and_recreation.employee_demographics
+group by gender
+having avg_age > 40;
 
-SELECT gender, AVG(age) avg_age FROM parks_and_recreation.employee_demographics
-GROUP BY gender
-HAVING avg_age > 40;
+select gender, AVG(age) avg_age from parks_and_recreation.employee_demographics
+group by gender
+having avg_age > 40;
 
 --learning offset in sql with  multiple examples
-SELECT * FROM parks_and_recreation.employee_demographics
-ORDER BY age desc
-LIMIT 3 OFFSET 2;
+select * from parks_and_recreation.employee_demographics
+order by age desc
+limit 3 OFFSET 2;
+
+select * from parks_andrecreation.employee_demographics
+group by age
+order by age
+having age > 18
+limit 50;
 
 SELECT * FROM parks_and_receation.employee_demographics
 ORDER BY age descc
