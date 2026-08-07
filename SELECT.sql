@@ -4,7 +4,7 @@
 select * 
 from parks_and_recreation.employee_demographics demo;
 
-select first_name, last_name, birth_date, age, age+10, (age+10)*10
+select first_name, last_name, birth_date, age, age+10 as age_10_added, (age+10)*10 as age_10_added_times_10
 from parks_and_recreation.employee_demographics demo;
 
 select distinct gender
