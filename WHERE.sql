@@ -26,6 +26,3 @@ where birth_date = '1989';
 
 select * from parks_and_recreation.employee_demographics
 where birth_date between '1987' and '1989';
-
-select * from parks_and_recreation.employee_demographics
-where first_name like 'c%';
