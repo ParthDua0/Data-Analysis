@@ -23,5 +23,3 @@ select * from parks_and_recreation.employee_demographics
 group by occupation, salary
 order by 5, 4;
 
-select gender, age from parks_and_recreation.employee_demographics
-order by 2, 5, 1;
