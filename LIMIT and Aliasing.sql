@@ -4,8 +4,6 @@ select * from parks_and_recreation.employee_demographics
 order by age desc
 limit 3,2;
 
--- Aliasing
-
 select gender, AVG(age) from parks_and_recreation.employee_demographics
 group by gender
 having AVG(age) > 40;
