@@ -1,6 +1,5 @@
 -- name of dataset parks_and_recreation
 -- name of table employee_demographics
--- tip :- can use alias in place of writing the whole name everytime
 select * 
 from parks_and_recreation.employee_demographics demo;
 
