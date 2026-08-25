@@ -24,3 +24,5 @@ where first_name like 'a___%';
 select * from parks_and_recreation.employee_demographics
 where birth_date = '1989';
 
+select * from parks_and_recreation.employee_demographics
+where birth_date between 1980 and 1990;
