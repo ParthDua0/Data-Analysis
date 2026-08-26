@@ -1,7 +1,7 @@
 -- HAVING VS WHERE
 
 select gender, AVG(age) from parks_and_recreation.employee_demographics
-group by gender
+group by gender -- grouping
 having AVG(age)>40; --used after grouping 
 
 select occupation, AVG(salary)from parks_and_recreation.employee_salary
