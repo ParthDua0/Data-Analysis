@@ -14,4 +14,4 @@ from parks_and_recreation.employee_demographics;
 
 -- grouping by gender and counting the params 
 select count(*) from park_and_recreation.employee_demographics
-group by gender;
+group by gender; -- grouped
