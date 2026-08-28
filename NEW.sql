@@ -10,5 +10,4 @@ INSERT INTO Students VALUES(1, 'Parth', 'M');
 
 -- Printing
 
-SELECT * FROM Students
-limit 1;
+SELECT * FROM Students;
