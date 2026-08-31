@@ -1,6 +1,6 @@
 -- HAVING VS WHERE
 
-select gender, AVG(age) from parks_and_recreation.employee_demographics
+select gender, AVG(age) from parks_and_recreation.employee_demographics -- acts like the print statement in sql
 group by gender -- grouping
 having AVG(age)>40; --used after grouping 
 
