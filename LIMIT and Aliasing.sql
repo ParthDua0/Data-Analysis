@@ -19,13 +19,13 @@ having avg_age > 40;
 --learning offset in sql with  multiple examples
 select * from parks_and_recreation.employee_demographics
 order by age desc
-limit 3 OFFSET 2;
+limit 3 OFFSET 2; --applying both limits and offsets
 
 select * from parks_andrecreation.employee_demographics
 group by age
 order by age
 having age > 18
-limit 50;
+limit 50; --only applying limits
 
 select * from parks_and_receation.employee_demographics
 order by age desc
