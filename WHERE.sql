@@ -12,7 +12,6 @@ and dept_id = 1;
 select * from parks_and_recreation.employee_demographics
 where (first_name = 'Leslie' and age = 44) or age > 50;
 
--- LIKE
 -- %(anything) and _ (a specific value)
 
 select * from parks_and_recreation.employee_salary
