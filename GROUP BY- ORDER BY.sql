@@ -21,7 +21,7 @@ order by 5, 4;
 
 select * from parks_and_recreation.employee_demographics
 group by occupation, salary
-order by 5, 4;
+order by 5;
 
 select * from parks_and_recreation.employee_demographics
 order by 5
