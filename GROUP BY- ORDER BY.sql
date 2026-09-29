@@ -1,7 +1,8 @@
 select * from parks_and_recreation.employee_demographics;
 
 select gender , AVG(age), MAX(age), MIN(age) from parks_and_recreation.employee_demographics
-group by gender;
+group by gender
+order by salary;
 
 select occupation, salary from parks_and_recreation.employee_salary
 group by occupation, salary;
