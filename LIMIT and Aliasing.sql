@@ -29,4 +29,4 @@ limit 50;
 
 select * from parks_and_receation.employee_demographics
 order by age desc
-limit 6 OFFSET 5:
+limit 6:
