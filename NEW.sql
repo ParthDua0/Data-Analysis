@@ -11,4 +11,4 @@ INSERT INTO Students VALUES(1, 'Parth', 'M');
 -- Printing
 
 SELECT * FROM Students
-LIMIT 5;
+LIMIT 3;
