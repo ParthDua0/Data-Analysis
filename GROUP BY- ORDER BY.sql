@@ -23,5 +23,4 @@ order by 5;
 
 select * from parks_and_recreation.employee_demographics
 group by 3
-order by 5
-limit 10;
+order by 5;
