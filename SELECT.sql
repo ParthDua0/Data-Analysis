@@ -11,6 +11,3 @@ from parks_and_recreation.employee_demographics;
 
 select distinct first_name,gender
 from parks_and_recreation.employee_demographics;
-
-select count(*) from park_and_recreation.employee_demographics
-group by gender; 
