@@ -16,7 +16,7 @@ having avg_age > 40;
 --Offset
 select * from parks_and_recreation.employee_demographics
 order by age desc
-limit 3 OFFSET 2; 
+limit 3; 
 
 select * from parks_andrecreation.employee_demographics
 group by age
