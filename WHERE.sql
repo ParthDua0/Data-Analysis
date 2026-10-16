@@ -19,6 +19,3 @@ where first_name like 'a%';
 
 select * from parks_and_recreation.employee_demographics
 where first_name like 'a___%';
-
-select * from parks_and_recreation.employee_demographics
-where birth_date = '1989';
