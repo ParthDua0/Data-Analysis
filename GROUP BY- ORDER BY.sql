@@ -7,8 +7,6 @@ order by salary;
 select occupation, salary from parks_and_recreation.employee_salary
 group by occupation, salary;
 
--- ORDER BY 
-
 select * from parks_and_recreation.employee_demographics
 order by gender, age;
 
