@@ -18,12 +18,6 @@ select * from parks_and_recreation.employee_demographics
 order by age desc
 limit 3; 
 
-select * from parks_andrecreation.employee_demographics
-group by age
-order by age
-having age > 18
-limit 50; 
-
 select * from parks_and_receation.employee_demographics
 order by age desc
 limit 6:
